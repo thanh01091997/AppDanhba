@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mời bạn chọn"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btngoi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Gọi"/>
+        <Button
+            android:id="@+id/btnnhantin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Tin nhắn"/>
+        <Button
+            android:id="@+id/btnhuy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy"/>
+    </LinearLayout>
+</LinearLayout>
